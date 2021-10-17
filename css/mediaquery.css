@@ -1,0 +1,68 @@
+@media screen and (max-width: 960px) {
+    header {
+        background-size: 162%;
+    }
+
+    .encabezado .logotipo {
+        margin-top: 60px;
+    }
+
+    header .contenedor-menu {
+        margin-bottom: 180px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    header {
+        background-size: 330%;
+    }
+    
+    header .titulo h1 {
+        font-size: 3rem;
+    }
+
+    .main .articulo {
+        flex-direction: column;
+    }
+
+    .main .articulo .titulo {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .main .contenido {
+        margin-bottom: 10px;
+    }
+
+    .main img {
+        max-width: 100%;
+    }
+
+    footer .logotipo {
+        margin: 0 auto 20px;
+    }
+
+    footer .categoria {
+        margin: auto;
+    }
+    
+    footer .categoria .menu_pie2 {
+    margin-right: 10px;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        background-size: 400%;
+    }
+
+    .encabezado .logotipo {
+        margin-top: 60px;
+    }
+
+    header .contenedor-menu {
+        margin-bottom: 100px;
+    }
+}
